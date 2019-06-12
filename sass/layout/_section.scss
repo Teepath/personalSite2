@@ -1,0 +1,17 @@
+.section {
+    background-color: #9864fe;
+    width: 1000px;
+    height: auto;
+    text-align: center;
+    clip-path: polygon(0 0, 100% 10px, 100% 480px, 0 100%);
+  
+    &__header--title {
+      font-size: 3rem;
+      font-weight: 500;
+      padding: 3rem;
+      text-transform: uppercase;
+      text-align: center;
+      color: #fff; }
+  
+  
+  }

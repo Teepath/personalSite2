@@ -1,0 +1,13 @@
+.btn {
+    height: 5rem;
+    border-radius: .5rem;
+    padding: 1.5rem 4rem;
+    font-size: 2rem; }
+  
+  .btn:hover {
+    transform: translateY(-3rem);
+    box-shadow: 0, 1rem, 2rem, rgba($color-black-grey, 0.2); }
+  
+  .btn:active {
+    transform: translateY(-1rem);
+    box-shadow: 0, 0.5rem, 2rem, rgba($color-black-grey, 0.2); }

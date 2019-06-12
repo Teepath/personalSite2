@@ -1,0 +1,17 @@
+.sidebar {
+    background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-dark, 0.8));
+    width: 30rem;
+    text-align: center;
+    line-height: 2rem;
+    padding: 2.5rem 4.5rem;
+
+    &__header--title {
+        font-size: 3rem;
+        font-weight: 500;
+        padding: 3rem;
+        text-transform: uppercase;
+        text-align: center;
+        color: #fff; }
+
+}
+  

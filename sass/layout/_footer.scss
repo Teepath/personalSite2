@@ -1,0 +1,16 @@
+
+.footer {
+    display: inline-block;
+    background-color: rgba($color-primary-dark, 0.8);
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 2rem;
+    color: #95678e; 
+  
+    & .logo {
+      height: 4.5rem;
+      width: 6.5rem; }
+    
+  
+  }

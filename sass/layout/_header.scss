@@ -1,0 +1,29 @@
+
+
+.header {
+    height: 50vh;
+    background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-dark, 0.8)), url(../image/bg.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 200px, 0 100%);
+    position: relative;
+    &__logo--box {
+      position: absolute;
+      top: 4rem;
+      left: 4rem; }
+    
+    &__img--logo {
+      height: 24rem;
+      border-radius: 50%;
+      animation-name: moveIndown;
+      animation-duration: 5s; }
+    
+    &__text--box {
+      position: absolute;
+      top: 30%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      animation-name: moveIndown;
+      animation-duration: 3s;
+      animation-timing-function: ease-in; }
+  }
